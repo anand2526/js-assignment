@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>assignment</title>
+   <script > 
+   function today()
+{
+  var d = new Date();
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+document.getElementById("demo").innerHTML = days[d.getDay()];
+}  
+      function presenttime()
+      {
+        document.getElementById("simple").innerHTML =Date();
+      }
+    </script>
+</head>
+<body>
+  <h1> Assignent 1</h1>
+  <button onclick="today()"> Today is: </button>
+  <p id="demo"></p>
+  <button onclick="presenttime()">Current time is:</button>
+  <p id="simple"></p>
+</body>
+</html>
